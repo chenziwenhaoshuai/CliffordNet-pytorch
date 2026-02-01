@@ -9,7 +9,7 @@ This is a deep learning model implementation based on Clifford algebra (geometri
 ### Key Performance Metrics
 | Metric | Nano               | Fast  | Base  |
 |--------|--------------------|-------|-------|
-| Best Test Accuracy | **77.94%** (Epoch 192) | **81.18%**  (Epoch 199)   | Training...     |
+| Best Test Accuracy | **77.94%** (Epoch 192) | **81.18%**  (Epoch 199)   | **81.95%**  (Epoch 200)     |
 | Results in the paper | 76.41%             | 77.63% | 78.05% |
 
 ## Model Architecture
@@ -149,6 +149,7 @@ If you use this code, please cite the relevant research work on Clifford algebra
 ## License
 
 MIT License
+
 
 
 
