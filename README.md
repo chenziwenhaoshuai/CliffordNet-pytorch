@@ -4,6 +4,14 @@
 
 This is a deep learning model implementation based on Clifford algebra (geometric algebra) for CIFAR-100 image classification tasks. The model achieves feature interaction through geometric product operations and employs a gated geometric residual connection mechanism.
 
+## Training Results (CliffordNet-Nano)
+
+### Key Performance Metrics
+| Metric | Nano               | Fast  | Base  |
+|--------|--------------------|-------|-------|
+| Best Test Accuracy | **77.94%** (Epoch 192) | Training...     | Training...     |
+| Results in the paper | 76.41%             | 77.63 | 78.05 |
+
 ## Model Architecture
 
 ### Core Components
@@ -85,13 +93,7 @@ Uses SequentialLR combined strategy:
 **Test Set**:
 - Normalize only
 
-## Training Results (CliffordNet-Nano)
 
-### Key Performance Metrics
-| Metric | Nano               | Fast  | Base  |
-|--------|--------------------|-------|-------|
-| Best Test Accuracy | **77.94%** (Epoch 192) | -     | -     |
-| Results in the paper | 76.41%             | 77.63 | 78.05 |
 
 
 ## Usage
@@ -147,4 +149,5 @@ If you use this code, please cite the relevant research work on Clifford algebra
 ## License
 
 MIT License
+
 
